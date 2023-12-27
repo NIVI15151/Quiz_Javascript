@@ -1,0 +1,62 @@
+body {
+    background-color: #673AB7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', 'sans-serif';
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.game {
+    display: none; /* Hide the game initially */
+}
+
+.result {
+    display: block;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.content {
+    padding: 50px;
+}
+
+.question {
+    font-size: 40px;
+    color: #673AB7; /* Purple */
+}
+
+.answer {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.submit {
+    background-color: #2196F3; /* Blue */
+    color: white;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #1565C0; /* Darker Blue on hover */
+}
